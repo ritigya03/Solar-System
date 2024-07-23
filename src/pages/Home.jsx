@@ -29,14 +29,14 @@ function Home() {
                 <nav className="w-full px-4 sm:px-6 lg:px-8 flex justify-between items-center mb-4 lg:mb-8 fixed top-0 left-0 z-50 ">
                     <Link to="home" ><img className="mt-5 ml-0 h-6 md:ml-5 cursor-pointer" src={logo} alt="Logo" /></Link>
                     <div className="hidden lg:flex lg:gap-7 mr-5 mt-7">
-                        <Link to="home" className=' text-white ' smooth={true} duration={500}><button>Home</button></Link>
+                        <Link to="home" className=' text-white ' smooth={true} duration={100}><button>Home</button></Link>
                         <Link to="sun" className=' text-white ' smooth={true} duration={500}><button>Sun</button></Link>
                         <Link to="mercury" className=' text-white ' smooth={true} duration={500}><button>Mercury</button></Link>
                         <Link to="venus" className=' text-white ' smooth={true} duration={500}><button>Venus</button></Link>
                         <Link to="earth" className=' text-white' smooth={true} duration={500}><button>Earth</button></Link>
                         <Link to="mars" className=' text-white ' smooth={true} duration={500}><button>Mars</button></Link>
                         <Link to="jupiter" className=' text-white '  smooth={true} duration={500}><button>Jupiter</button></Link>
-                        <Link to="saturn" className=' text-white ' smooth={true} duration={500}><button>Jupiter</button></Link>
+                        <Link to="saturn" className=' text-white ' smooth={true} duration={500}><button>Saturn</button></Link>
                         <Link to="uranus" className=' text-white' smooth={true} duration={500}><button>Uranus</button></Link>
                         <Link to="neptune" className=' text-white ' smooth={true} duration={500}><button>Neptune</button></Link>
                         <Link to="join" className=' text-white ' smooth={true} duration={500}><button>Join</button></Link>
