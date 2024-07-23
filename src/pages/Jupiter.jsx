@@ -5,6 +5,7 @@ import stars from '../assets/Clip path group.png';
 import moreStars from '../assets/Clip path group (1).png';
 import '../index.css';
 
+
 function Jupiter() {
     return (
         <div className="relative min-h-screen overflow-hidden">
