@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import JupiterImg from '../assets/Layer 2 (9).png';
 import JupiterCard1 from '../assets/card (5).png'
 import JupiterCard2 from '../assets/card (6).png'

@@ -1,6 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
-import Eathcards from '../assets/Frame 5 (2).png';
 import ellipse2 from '../assets/Ellipse 2.png'
 import ellipse3 from '../assets/Ellipse 3.png'
 import stars from '../assets/Clip path group.png';

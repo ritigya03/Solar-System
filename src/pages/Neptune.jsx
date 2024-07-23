@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import NeptuneImg from '../assets/Group 12.png';
 import NeptuneCards from '../assets/Frame 9 (1).png'
 import stars from '../assets/Clip path group.png';

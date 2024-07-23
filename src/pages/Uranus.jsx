@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import UranusImg from '../assets/Group 11.png';
 import UranusCards from '../assets/Frame 9.png'
 import stars from '../assets/Clip path group.png';

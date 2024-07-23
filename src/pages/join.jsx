@@ -1,11 +1,11 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import NeptuneImg2 from '../assets/Group 16.png';
 import SubscribeBtn from '../assets/Button (1).png'
+import { Link } from 'react-scroll'
 import stars from '../assets/Clip path group.png';
+import logo from '../assets/Frame 11.png';
 import moreStars from '../assets/Clip path group (1).png';
 import '../index.css';
-import logo from '../assets/Frame 11.png';
+
 
 function Join() {
     return (
@@ -27,16 +27,17 @@ function Join() {
                 <nav className="w-full  lg:px-8 flex justify-between items-center mb-8 left-0 z-50 ">
                     <img className="mt-5 h-6 ml-5" src={logo} alt="Logo" />
                     <div className="hidden lg:flex lg:gap-7 mr-5 mt-7">
-                        <Link to={'/sun'} className='text-white'>Sun</Link>
-                        <Link to={'/mercury'} className='text-white'>Mercury</Link>
-                        <Link to={'/venus'} className='text-white'>Venus</Link>
-                        <Link to={'/earth'} className='text-white'>Earth</Link>
-                        <Link to={'/mars'} className='text-white'>Mars</Link>
-                        <Link to={'/jupiter'} className='text-white'>Jupiter</Link>
-                        <Link to={'/saturn'} className='text-white'>Saturn</Link>
-                        <Link to={'/uranus'} className='text-white'>Uranus</Link>
-                        <Link to={'/neptune'} className='text-white'>Neptune</Link>
-                        <Link to={'/join'} className='text-white'>Join</Link>
+                    <Link to="home" className=' text-white ' smooth={true} duration={500}><button>Home</button></Link>
+                        <Link to="sun" className=' text-white ' smooth={true} duration={500}><button>Sun</button></Link>
+                        <Link to="mercury" className=' text-white ' smooth={true} duration={500}><button>Mercury</button></Link>
+                        <Link to="venus" className=' text-white ' smooth={true} duration={500}><button>Venus</button></Link>
+                        <Link to="earth" className=' text-white' smooth={true} duration={500}><button>Earth</button></Link>
+                        <Link to="mars" className=' text-white ' smooth={true} duration={500}><button>Mars</button></Link>
+                        <Link to="jupiter" className=' text-white '  smooth={true} duration={500}><button>Jupiter</button></Link>
+                        <Link to="saturn" className=' text-white ' smooth={true} duration={500}><button>Jupiter</button></Link>
+                        <Link to="uranus" className=' text-white' smooth={true} duration={500}><button>Uranus</button></Link>
+                        <Link to="neptune" className=' text-white ' smooth={true} duration={500}><button>Neptune</button></Link>
+                        <Link to="join" className=' text-white ' smooth={true} duration={500}><button>Join</button></Link>
                     </div>
                 
                 </nav>

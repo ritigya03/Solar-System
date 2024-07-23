@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import MarsImg from '../assets/Group 9.png';
 import MarsCard1 from '../assets/card (2).png';
 import MarsCard2 from '../assets/card (3).png';

@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import Suncards from '../assets/Frame 5.png';
 import stars from '../assets/Clip path group.png';
 import moreStars from '../assets/Clip path group (1).png';

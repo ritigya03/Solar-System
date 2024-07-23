@@ -1,5 +1,3 @@
-import { useState } from 'react';
-import { Link } from 'react-router-dom';
 import SaturnImg from '../assets/Layer 2 (10).png';
 import SaturnCard1 from '../assets/card (7).png'
 import SaturnCard2 from '../assets/card (8).png'
