@@ -11,7 +11,7 @@ function Venus() {
         <div className="relative min-h-screen overflow-hidden">
             <img className="absolute top-0 left-0 w-full h-full object-cover z-10" src={moreStars} alt="More Stars" />
             <img className='absolute z-10 bottom-0 right-0 sm:h-[400px] lg:h-[700px] animate-floatDown ' src={VenusImg} alt="" />
-            <div className='absolute z-10 top-[70px] md:left-[400px] lg:left-[120px] transform -translate-x-1/2 w-[90%] left-[200px] sm:w-[80%] lg:w-[600px] lg:transform-none h-[500px]'>
+            <div className='absolute z-10 left-2 top-[30px] md:top-[70px] lg:left-[200px] w-[99%] md:w-[400px] lg:w-[550px] '>
                 <h1 className='text-white text-4xl sm:text-5xl lg:text-8xl font-black'>2. Venus</h1>
                 <p className='font-sans mt-5 text-white text-xs sm:text-sm'>Venus is often referred to as Earth's "sister planet" due to its similar size and composition, but it stands out with its extremely inhospitable environment</p>
                 <img className='mt-10 h-[350px] w-full lg:w-auto' src={Venuscards} alt="" />

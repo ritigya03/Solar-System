@@ -74,11 +74,19 @@ input:focus {
   .earth-img {
       height: 200px; 
   }
+
 }
 
 @media (max-width:1130px){
   .arrow{
     display: none;
   }
+
+
 }
 
+@media (min-width: 1024px) and (max-width: 1130px) {
+  .marsMoonSize {
+    margin-top: 250px;
+  }
+}

@@ -21,9 +21,9 @@ function Mars() {
                 <img className='w-[80px] mt-[100px] h-[40px] md:h-[80px] lg:h-[150px] sm:w-[100px] md:w-[200px] lg:w-[300px]' src={MarsCard2} alt="" />
                 <img className='w-[80px]  h-[40px] lg:h-[150px]  md:h-[80px] sm:w-[100px] md:w-[200px] lg:w-[300px]' src={MarsCard3} alt="" />
             </div>
-            <img className='absolute h-1  lg:h-[70px] left-4 md:left-[500px] top-[250px] md:top-[310px]' src={MarsArrow} alt="" />
+            <img className='absolute h-1  lg:h-[70px] left-4 md:left-[500px] arrow top-[250px] md:top-[310px]' src={MarsArrow} alt="" />
             <div className="absolute z-10 top-[300px] lg:top-[340px]  left-4 md:top-[250px] sm:left-20 lg:left-[650px] w-[90%] max-w-[400px] h-auto">
-                <h1 className='text-white text-2xl sm:text-3xl md:text-5xl font-black'>Martian Moons</h1>
+                <h1 className='text-white text-2xl sm:text-3xl md:text-5xl marsMoonSize font-black'>Martian Moons</h1>
                 <p className='text-white mt-5 sm:mt-4 md:mt-5 text-xs md:text-base sm:text-sm lg:w-[300px] font-sans'>Mars has two small moons, Phobos and Deimos, which are irregularly shaped and thought to be captured asteroids.</p>
             </div>
             <img className="absolute bottom-0 left-0 w-full h-full object-cover z-0" src={stars} alt="Stars" />

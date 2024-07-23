@@ -10,7 +10,7 @@ function Jupiter() {
         <div className="relative min-h-screen overflow-hidden">
             <img className="absolute top-0 left-0 w-full h-full object-cover z-10" src={moreStars} alt="More Stars" />
             <img className="absolute h-[250px] md:h-[400px] lg:h-[700px] z-10 right-0  animate-float" src={JupiterImg} alt="Sun" />
-            <div className=" absolute left-2 top-[230px] md:top-[50px] lg:left-[140px] w-[99%] md:w-[400px] lg:w-[550px] ">
+            <div className=" absolute z-10 left-2 top-[230px] md:top-[50px] lg:left-[140px] w-[95%] md:w-[400px] lg:w-[550px] ">
                 <h1 className='text-3xl md:text-7xl text-white font-black'>5. Jupiter</h1>
                 <p className='text-white mt-5 font-sans'>Jupiter, the largest planet in our solar system, is a gas giant known for its immense size, powerful storms, and numerous moons.</p>
             </div>

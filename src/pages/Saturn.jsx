@@ -11,9 +11,9 @@ function Saturn() {
             <img className="absolute top-0 left-0 w-full h-full object-cover z-10" src={moreStars} alt="More Stars" />
             <img className="absolute h-[250px] md:h-[400px] lg:h-[700px] z-10 left-0  animate-float" src={SaturnImg} alt="Sun" />
             <h1 className='text-white absolute top-[120px] left-[250px] text-3xl font-black'>Titan</h1>
-            <div className="absolute z-30 top-[220px] md:top-[30px] w-[400px] right-[20px] lg:top-[60px] md:right-[30px] lg:right-[150px] text-right lg:w-[700px]">
+            <div className="absolute z-30 top-[220px] md:top-[30px] w-[300px] md:w-[400px] right-[20px] lg:top-[60px] md:right-[30px] lg:right-[150px] text-right lg:w-[700px]">
                 <h1 className='text-3xl md:text-7xl text-white font-black'>6. Saturn</h1>
-                <p className='text-white mt-5 font-sans'>Saturn, often referred to as the "Ringed Planet," is known for its stunning system of rings that encircle the planet's equator. It's the sixth planet from the Sun and is one of the most visually distinctive objects in our solar system, with more than 80 known satellites.</p>
+                <p className='text-white md:text-base text-sm mt-5 font-sans'>Saturn, often referred to as the "Ringed Planet," is known for its stunning system of rings that encircle the planet's equator. It's the sixth planet from the Sun and is one of the most visually distinctive objects in our solar system, with more than 80 known satellites.</p>
             </div>
             <div className="absolute  z-10 top-[410px] right-[150px] md:top-[270px]">
                 <img className='h-[80px] md:h-[150px] lg:h-[180px]' src={SaturnCard1} alt="" />
