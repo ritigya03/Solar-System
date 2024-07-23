@@ -14,7 +14,7 @@ function Jupiter() {
                 <h1 className='text-3xl md:text-7xl text-white font-black'>5. Jupiter</h1>
                 <p className='text-white mt-5 font-sans'>Jupiter, the largest planet in our solar system, is a gas giant known for its immense size, powerful storms, and numerous moons.</p>
             </div>
-            <div className="absolute z-10 top-[370px] md:top-[270px] md:left-[140px]">
+            <div className="absolute z-10 top-[400px] md:top-[270px] md:left-[140px]">
                 <img className='h-[100px] md:h-[150px] lg:h-[180px]' src={JupiterCard1} alt="" />
                 <img className='h-[100px] md:h-[150px] lg:h-[180px] mt-5' src={JupiterCard2} alt="" />
             </div>
