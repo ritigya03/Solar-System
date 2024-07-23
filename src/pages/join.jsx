@@ -34,7 +34,7 @@ function Join() {
                         <Link to="earth" className=' text-white' smooth={true} duration={500}><button>Earth</button></Link>
                         <Link to="mars" className=' text-white ' smooth={true} duration={500}><button>Mars</button></Link>
                         <Link to="jupiter" className=' text-white '  smooth={true} duration={500}><button>Jupiter</button></Link>
-                        <Link to="saturn" className=' text-white ' smooth={true} duration={500}><button>Jupiter</button></Link>
+                        <Link to="saturn" className=' text-white ' smooth={true} duration={500}><button>Saturn</button></Link>
                         <Link to="uranus" className=' text-white' smooth={true} duration={500}><button>Uranus</button></Link>
                         <Link to="neptune" className=' text-white ' smooth={true} duration={500}><button>Neptune</button></Link>
                         <Link to="join" className=' text-white ' smooth={true} duration={500}><button>Join</button></Link>
