@@ -13,7 +13,7 @@ function Join() {
             <img className="absolute top-0 left-0 w-full h-full object-cover z-10" src={moreStars} alt="More Stars" />
             <img className="absolute z-10 left-0 md:h-[285px] lg:h-[512px] " src={NeptuneImg2} alt="Sun" />
             <div className='absolute w-[90%] left-4 md:left-10 lg:top-10 lg:left-[70px] z-20 text-center  border-2 rounded-[40px] border-purple-950 bg-neutral-800'>
-                <div className='lg:w-[800px] py-5 px-3 lg:py-10 lg:ml-[300px]'>
+                <div className='lg:w-[800px] py-1 px-3 lg:py-10 lg:ml-[300px]'>
                     <h1 className='text-white  font-black  text-4xl'>Join The Education Community</h1>
                     <p className='text-white mt-2 font-sans'>Join the Education Community today and be part of a movement that's transforming minds and shaping tomorrows.</p>
                     <div className='lg:w-[630px] lg:h-[70px] mt-5 lg:ml-20 py-2 border px-4 rounded-[40px] bg-white'>

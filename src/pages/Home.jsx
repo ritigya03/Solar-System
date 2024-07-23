@@ -28,7 +28,7 @@ function Home() {
             <div className="relative min-h-screen overflow-hidden">
 
                 <nav className="w-full px-4 sm:px-6 lg:px-8 flex justify-between items-center mb-4 lg:mb-8 fixed top-0 left-0 z-50 ">
-                    <img className="mt-5 ml-0 h-6 md:ml-5" src={logo} alt="Logo" />
+                    <Link to="home" ><img className="mt-5 ml-0 h-6 md:ml-5" src={logo} alt="Logo" /></Link>
                     <div className="hidden lg:flex lg:gap-7 mr-5 mt-7">
                     <Link to="home" className=' text-white ' smooth={true} duration={500}>Home</Link>
                         <Link to="sun" className=' text-white ' smooth={true} duration={500}>Sun</Link>
@@ -52,19 +52,19 @@ function Home() {
 
            
                 {isDown && (
-                    <div className="lg:hidden absolute top-0 w-full h-full bg-black p-4 flex flex-col items-center z-40">
+                    <div className="lg:hidden absolute top-0 w-full h-full blacktransparent p-4 flex flex-col items-center z-40">
                         <div className='mt-10 text-center'>
-                        <Link to="home" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Home</Link>
-                        <Link to="sun" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Sun</Link>
-                        <Link to="mercury" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Mercury</Link>
-                        <Link to="venus" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Venus</Link>
-                        <Link to="earth" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Earth</Link>
-                        <Link to="mars" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Mars</Link>
-                        <Link to="jupiter" className='block text-4xl leading-[50px] font-bold text-white mb-2'  smooth={true} duration={500}>Jupiter</Link>
-                        <Link to="saturn" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Saturn</Link>
-                        <Link to="uranus" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Uranus</Link>
-                        <Link to="neptune" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Neptune</Link>
-                        <Link to="join" className='block text-4xl leading-[50px] font-bold text-white mb-2' smooth={true} duration={500}>Join</Link>
+                        <Link to="home" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Home</Link>
+                        <Link to="sun" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Sun</Link>
+                        <Link to="mercury" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Mercury</Link>
+                        <Link to="venus" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Venus</Link>
+                        <Link to="earth" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Earth</Link>
+                        <Link to="mars" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Mars</Link>
+                        <Link to="jupiter" className='block text-3xl leading-[50px] font-bold text-white'  smooth={true} duration={500}>Jupiter</Link>
+                        <Link to="saturn" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Saturn</Link>
+                        <Link to="uranus" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Uranus</Link>
+                        <Link to="neptune" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Neptune</Link>
+                        <Link to="join" className='block text-3xl leading-[50px] font-bold text-white ' smooth={true} duration={500}>Join</Link>
 
                         </div>
                     </div>
@@ -90,7 +90,7 @@ function Home() {
                             Embark on a cosmic journey across the ethereal expanse of the solar system Galaxy and follow the orchestration of the cosmos and the planets weaving stories of their timeless existence.
                         </p>
                         <button className='mt-5'>
-                            <img src={LearnBtn} alt="Learn Button" />
+                            <Link to='sun'><img src={LearnBtn} alt="Learn Button" /></Link>
                         </button>
                     </div>
                 </div>

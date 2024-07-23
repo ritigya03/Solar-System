@@ -18,8 +18,8 @@ function Saturn() {
                 <p className='text-white mt-5 font-sans'>Saturn, often referred to as the "Ringed Planet," is known for its stunning system of rings that encircle the planet's equator. It's the sixth planet from the Sun and is one of the most visually distinctive objects in our solar system, with more than 80 known satellites.</p>
             </div>
             <div className="absolute  z-10 top-[410px] right-[150px] md:top-[270px]">
-                <img className='h-[100px] md:h-[180px]' src={SaturnCard1} alt="" />
-                <img className='h-[100px] md:h-[180px] mt-5' src={SaturnCard2} alt="" />
+                <img className='h-[80px] md:h-[150px] lg:h-[180px]' src={SaturnCard1} alt="" />
+                <img className='h-[80px] md:h-[150px] lg:h-[180px] mt-5' src={SaturnCard2} alt="" />
             </div>
          
             <img className="absolute bottom-0 left-0 w-full h-full object-cover z-0" src={stars} alt="Stars" />

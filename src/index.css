@@ -12,7 +12,9 @@ body {
     rgba(16, 10, 51, 1)
   );
 }
-
+.blacktransparent{
+  background-color: rgba(0, 0, 0, 0.788);
+}
 input:focus {
   outline: none; 
 }
